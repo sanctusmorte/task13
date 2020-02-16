@@ -1,0 +1,60 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.products {
+	margin-bottom: 15px;
+	.name {
+		font-weight: 700;
+	}
+}
+
+.pagination {
+	justify-content: center;
+}
+
+.currentPage {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.actions {
+	display: flex;
+	justify-content: space-around;
+}
+
+.actions div {
+	cursor: pointer;
+}
+
+.room,
+.house {
+	width: 50px;
+	text-align: center;
+}
+
+.country,
+.city,
+.street {
+	width: 100px;
+	text-align: center
+}
+
+.refMessageFromRequest {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.pagination {
+	margin-top: 20px;
+}
